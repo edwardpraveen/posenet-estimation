@@ -2,7 +2,7 @@
 
 
 
-**Links to understand further: **
+**Links to understand further:**
 
 [Link-1](https://www.analyticsvidhya.com/blog/2019/09/step-by-step-deep-learning-tutorial-video-classification-python/)  [Link-2](https://www.analyticsvidhya.com/blog/2018/09/deep-learning-video-classification-python/)
 
@@ -55,7 +55,7 @@
    
 
 4. Clone [Posenet link](https://github.com/rwightman/posenet-python) from github to local. Run webcam.py file. It must open the webcam and check whether it's identifying the skeletal points
-5. 
+5. --To be Updated--
 
 
 
@@ -72,7 +72,7 @@
 <u>**References**</u>
 
 1. [Understanding CNN architecture](https://www.analyticsvidhya.com/blog/2017/06/architecture-of-convolutional-neural-networks-simplified-demystified/)
-2. 
+2. --To be Updated--
 
 
 
