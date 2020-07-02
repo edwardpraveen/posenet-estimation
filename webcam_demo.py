@@ -12,7 +12,7 @@ parser.add_argument('--cam_id', type=int, default=0)
 parser.add_argument('--cam_width', type=int, default=1280)
 parser.add_argument('--cam_height', type=int, default=720)
 parser.add_argument('--scale_factor', type=float, default=0.7125)
-parser.add_argument('--file', type=str, default="bhavesh_ingale_pushups.mp4", help="Optionally use a video file instead of a live camera")
+parser.add_argument('--file', type=str, default="online_walk.mp4", help="Optionally use a video file instead of a live camera")
 args = parser.parse_args()
 
 
@@ -31,11 +31,11 @@ def main():
         start = time.time()
         frame_count = 0
 
-        header = ['action','frame', 'input_number', 'x_inputs', 'y_inputs']
-
-        with open('dataset.csv','w') as w:
-            do = csv.writer(w)
-            do.writerow(header)
+        # header = ['action','frame', 'input_number', 'x_inputs', 'y_inputs']
+        #
+        # with open('dataset.csv','w') as w:
+        #     do = csv.writer(w)
+        #     do.writerow(header)
 
         while True:
             input_image, display_image, output_scale = posenet.read_cap(
@@ -63,7 +63,7 @@ def main():
             x_coordinates = []
             y_coordinates = []
             for i, j in enumerate(keypoint_coords[0]):
-                action_name.append('pushup')
+                action_name.append('walking')
                 frame.append(frame_count)
                 position.append(i + 1)
                 x_coordinates.append(j[0])

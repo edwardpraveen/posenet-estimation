@@ -10,7 +10,7 @@
 
 <u>**Pre-requisites:**</u>
 
-- [ ] Understanding CNN, RNN, LSTM architecture
+Understanding CNN, RNN, LSTM architecture
 
 
 <u>**Creating Video Dataset**</u>
@@ -23,10 +23,14 @@
 
   - Click the image below to view for falling video
 
+  - For Data set to do this project - [Click here](https://drive.google.com/drive/folders/1p38Po7zU43127HwZ2uQj4l_pHfvAaL_E?usp=sharing)
+
     
-
+  
+    
+  
   [![Sample video](https://www.lewybody.org/wp-content/uploads/2013/06/fall.jpg)](https://www.youtube.com/watch?v=zuL7_Huz_Ks)
-
+  
   
 
 <u>**Installing necessary Libraries**</u>
